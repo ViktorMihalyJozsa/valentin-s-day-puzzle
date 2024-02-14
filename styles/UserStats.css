@@ -21,6 +21,7 @@ dt, dd {
     text-align:   center;
 }
 
+
 @media(max-width: 1025px) {
     .UserStats {
         width:    auto;  
@@ -40,6 +41,7 @@ dt, dd {
         text-align:   center;
     }
 }
+
 
 @media(max-width: 768px) {
     .UserStats {
