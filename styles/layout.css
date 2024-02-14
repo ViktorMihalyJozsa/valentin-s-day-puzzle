@@ -1,0 +1,142 @@
+/*  ========================================================================  *\
+    L A Y O U T  a n d  F O N T
+\*  ========================================================================  */
+
+
+header {
+    width:    70vh;
+    height:   auto;
+    padding:  2vh 0vh 2vh 0vh;
+}
+
+h1, h2, h3 {
+    font-size:    5vh;
+    font-weight:  bold;
+    line-height:  6vh;
+}
+
+h4, a {
+    text-decoration:  none;
+    font-size:        2.5vh;
+    font-weight:      bold;
+    line-height:      3vh;
+    color:            darkred;
+}
+
+a:hover, a:active {
+    text-decoration:  none;
+    font-size:        2.5vh;
+    font-weight:      bold;
+    line-height:      3vh;
+    color:            rgba(255, 255, 0, 0.8);
+    text-shadow:      0.5vh 0.5vh 0.5vh rgba(68, 68, 68, 1), -0.1vh -0.1vh black;
+    transition:       all 0.5s ease-in-out;
+}
+
+    h1 {text-align: left;}
+    h2 {text-align: right;}
+    h3 {text-align: center;}
+    h4 {text-align: right;}
+
+footer {
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    height: auto;
+    padding:  2vh 2vh 2vh 2vh;
+}
+
+
+@media(max-width: 1025px) {
+    header {
+        width:    70vh;
+        height:   auto;
+        padding:  2vh 0vh 2vh 0vh;
+    }
+    
+    h1, h2, h3 {
+        font-size:    5vh;
+        font-weight:  bold;
+        line-height:  6vh;
+    }
+    
+    h4, a {
+        text-decoration:  none;
+        font-size:        2.5vh;
+        font-weight:      bold;
+        line-height:      3vh;
+        color:            darkred;
+    }
+    
+    a:hover, a:active {
+        text-decoration:  none;
+        font-size:        2.5vh;
+        font-weight:      bold;
+        line-height:      3vh;
+        color:            rgba(255, 255, 0, 0.8);
+        text-shadow:      0.5vh 0.5vh 0.5vh rgba(68, 68, 68, 1), -0.1vh -0.1vh black;
+        transition:       all 0.5s ease-in-out;
+    }
+    
+        h1 {text-align: left;}
+        h2 {text-align: right;}
+        h3 {text-align: center;}
+        h4 {text-align: right;}
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+    
+        width: 100%;
+        height: auto;
+        padding:  2vh 2vh 2vh 2vh;
+    }
+}
+
+
+@media(max-width: 768px) {
+    header {
+        width:    45vh;
+        height:   auto;
+        padding:  2vh 2vh 2vh 2vh;
+    }
+    
+    h1, h2, h3 {
+        font-size:    4vh;
+        font-weight:  bold;
+        line-height:  5vh;
+    }
+    
+    h4, a {
+        text-decoration:  none;
+        font-size:        2.5vh;
+        font-weight:      bold;
+        line-height:      3vh;
+        color:            darkred;
+    }
+    
+    a:hover, a:active {
+        text-decoration:  none;
+        font-size:        2.5vh;
+        font-weight:      bold;
+        line-height:      3vh;
+        color:            rgba(255, 255, 0, 0.8);
+        text-shadow:      0.5vh 0.5vh 0.5vh rgba(68, 68, 68, 1), -0.1vh -0.1vh black;
+        transition:       all 0.5s ease-in-out;
+    }
+    
+        h1 {text-align: left;}
+        h2 {text-align: right;}
+        h3 {text-align: center;}
+        h4 {text-align: right;}
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+    
+        width: 100%;
+        height: auto;
+        padding:  2vh 2vh 2vh 2vh;
+    }    
+}

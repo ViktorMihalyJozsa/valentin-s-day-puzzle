@@ -1,0 +1,84 @@
+/*  ========================================================================  *\
+    T I T L E  a n d  T I T L E - T A G
+\*  ========================================================================  */
+
+
+.Tile {
+    background-image:   url('../assets/bg.jpg');
+    background-size:    var(--size);
+    background-repeat:  no-repeat;
+    overflow:           hidden;
+    position:           absolute;
+    
+    box-shadow:         inset 0 0 1vh rgba(255, 255, 255, 0.3);
+
+    border-top:         0.1vh solid rgba(255, 255, 255, 1);
+    border-left:        0.1vh solid rgba(255, 255, 255, 1);
+    border-bottom:      0.1vh solid rgba(0, 0, 0, 1);
+    border-right:       0.1vh solid rgba(0, 0, 0, 1);
+    border-radius:      0.5vh;
+
+    transition:         all 200ms linear;
+    z-index:            100;
+}
+
+.Tile-tag {
+    display:        inline-block;
+
+    width:          4vh;  /*  30px  */
+    height:         4vh;  /*  30px  */
+
+    background:     none;
+    border-radius:  50%;
+
+    font-size:      2vh;  /*  15px  */
+    line-height:    4vh;  /*  30px  */
+    font-weight:    bold;
+    text-align:     center;
+    color:          rgba(255, 255, 255, 1);
+    text-shadow:    0.1vh 0.1vh 0.1vh rgba(0, 0, 0, 1), -0.1vh -0.1vh rgba(128, 128, 128, 1);
+
+    opacity:        1;
+}
+
+@media(max-width: 1025px) {
+    .Tile-tag {
+        display:        inline-block;
+    
+        width:          4vh;  /*  30px  */
+        height:         4vh;  /*  30px  */
+    
+        background:     none;
+        border-radius:  50%;
+    
+        font-size:      2vh;  /*  15px  */
+        line-height:    4vh;  /*  30px  */
+        font-weight:    bold;
+        text-align:     center;
+        color:          rgba(255, 255, 255, 1);
+        text-shadow:    0.1vh 0.1vh 0.1vh rgba(0, 0, 0, 1), -0.1vh -0.1vh rgba(128, 128, 128, 1);
+    
+        opacity:        1;
+    }
+}
+
+@media(max-width: 768px) {
+    .Tile-tag {
+        display:        inline-block;
+    
+        width:          2.664vh;  /*  20px  */
+        height:         2.664vh;  /*  20px  */
+    
+        background:     none;
+        border-radius:  50%;
+    
+        font-size:      1.332vh;  /*  10px  */
+        line-height:    2.664vh;  /*  20px  */
+        font-weight:    bold;
+        text-align:     center;
+        color:          rgba(255, 255, 255, 1);
+        text-shadow:    0.1vh 0.1vh 0.1vh rgba(0, 0, 0, 1), -0.1vh -0.1vh rgba(128, 128, 128, 1);
+    
+        opacity:        1;
+    }
+}

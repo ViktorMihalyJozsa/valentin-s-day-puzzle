@@ -1,0 +1,20 @@
+/*  ========================================================================  *\
+    R O O T  S I Z E
+\*  ========================================================================  */
+
+
+:root {
+    --size: 70vh;  /* change this to increase/decrease puzzle size */
+}
+
+@media(max-width: 1025px) {
+    :root {
+        --size: 65vh;
+    }
+}
+
+@media(max-width: 768px) {
+    :root {
+        --size: 45vh;
+    }
+}

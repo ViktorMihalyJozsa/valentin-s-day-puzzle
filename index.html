@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <title>Valentin's Day Puzzle</title>
+        <link rel="icon" type="image/png" href="assets/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" 
+              integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" 
+              crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>VALENTIN'S DAY</h1>
+            <h2>LOVE YOU MOM</h2>
+            <h3>PUZZLE</h3>
+        </header>
+        <main>
+            <div class="u-flex">
+                <div id="puzzle" class="Puzzle">
+                    <img src="assets/bg.jpg" alt="Puzzle result" class="Puzzle-placeholder">
+                </div>
+            </div>
+            <div class="UserStats">
+                <dl>
+                    <dt>Score:</dt>
+                    <dd>000000</dd>
+                    <dt>| Time:</dt>
+                    <dd>0:0:0</dd>
+                    <dt>| Moves:</dt>
+                    <dd>0</dd>
+                </dl>
+            </div>
+        </main>
+        <section class="FinalScreen">
+            <img src="https://media2.giphy.com/media/eoxomXXVL2S0E/giphy.gif" alt="Congratulations">
+            <h1>Congratulations, you solved it!</h1>
+            <dl>
+                <dt>Your score:</dt>
+                <dd></dd>
+                <dt>Time elapsed:</dt>
+                <dd></dd>
+                <dt>Moves:</dt>
+                <dd></dd>
+            </dl>
+            <div>
+                <div>
+                    <p>Save your score</p>
+                    <input type="text" id="user-name" placeholder="Your name">
+                    <button onclick="puzzle.saveScore()">Save</button>
+                </div>
+                <p>Saved scores:</p>
+                <div id="saved-scores">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h4>All rights reserved By<a href="https://viktormihalyjozsa.com/" target="_blank" class="vmj-icon">VMJ</a> ~ 2024</h4>
+            <h4>From :<a href="https://jelicich.github.io/" target="_blank"> Esteban Jelicich</a></h4>
+        </footer>
+    </body>
+        <script src="js/app.js"></script>
+        <script src="js/ui-helper.js"></script>
+</html>

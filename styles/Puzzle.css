@@ -1,0 +1,18 @@
+/*  ========================================================================  *\
+    P U Z Z L E
+\*  ========================================================================  */
+
+
+.Puzzle {
+    width:     var(--size);
+    height:    var(--size);
+    position:  relative;
+    overflow:  hidden;
+}
+
+.Puzzle-placeholder {
+    opacity:   0.3;
+    position:  absolute;
+    z-index:   10;
+    width:     100%;
+}

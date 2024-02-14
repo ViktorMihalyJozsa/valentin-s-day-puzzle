@@ -1,0 +1,34 @@
+/*  ========================================================================  *\
+    F I N A L S C R E E N
+\*  ========================================================================  */
+
+
+.FinalScreen {
+    position:          absolute;
+    display:           flex;
+    flex-direction:    column;
+    justify-content:   center;
+    align-items:       center;
+    
+    width:             100vw;
+    height:            0;
+    top:               0;
+    left:              0;
+
+    background-color:  rgba(255, 255, 255, 1);
+    color:             rgba(139, 0, 0, 1);
+
+    transition:        opacity 500ms ease-in;
+
+    opacity:           0;
+    z-index:           200;
+}
+
+.FinalScreen--open {
+    height:   100vh;
+    opacity:  1;
+}
+
+.FinalScreen dd {
+    margin-left:  0;
+}

@@ -1,0 +1,62 @@
+/*  ========================================================================  *\
+    U S E R S T A T S
+\*  ========================================================================  */
+
+
+.UserStats {
+    width:    auto;  
+    height:   auto;
+}
+
+dl {
+    display:          flex;
+    flex-direction:   row;
+    justify-content:  space-between;
+}
+
+dt, dd {
+    font-size:    3.5vh;
+    line-height:  7vh;
+    font-weight:  bolder;
+    text-align:   center;
+}
+
+@media(max-width: 1025px) {
+    .UserStats {
+        width:    auto;  
+        height:   auto;
+    }
+    
+    dl {
+        display:          flex;
+        flex-direction:   row;
+        justify-content:  space-between;
+    }
+    
+    dt, dd {
+        font-size:    3.5vh;
+        line-height:  7vh;
+        font-weight:  bolder;
+        text-align:   center;
+    }
+}
+
+@media(max-width: 768px) {
+    .UserStats {
+        width:    auto;  
+        height:   auto;
+    }
+    
+    dl {
+        display:          flex;
+        flex-direction:   row;
+        justify-content:  space-between;
+    }
+    
+    dt, dd {
+        font-size:    2.25vh;
+        line-height:  4.5vh;
+        font-weight:  bolder;
+        text-align:   center;
+    }
+}

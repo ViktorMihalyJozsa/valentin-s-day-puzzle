@@ -1,0 +1,31 @@
+/*  ========================================================================  *\
+    H T M L ,  B O D Y
+\*  ========================================================================  */
+
+
+* {
+    box-sizing:  border-box;
+    margin:      0;
+    padding:     0;
+}
+
+body {
+    display:              flex;
+    flex-direction:       column;
+    justify-content:      center;
+    align-items:          center;
+
+    width:                100vw;
+    height:               100vh;
+
+    background-color:     rgba(255, 255, 255, 1);
+    background-image:     url("../assets/background.jpg");
+    background-size:      cover;
+    background-repeat:    no-repeat;
+    background-position:  bottom;
+
+    font-family:          "Dancing Script", cursive;
+    color:                darkred;
+
+    z-index:              0;
+}
