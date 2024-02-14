@@ -15,6 +15,10 @@ h1, h2, h3 {
     line-height:  6vh;
 }
 
+    h1 {text-align: left;}
+    h2 {text-align: right;}
+    h3 {text-align: center;}
+
 h4, a {
     text-decoration:  none;
     font-size:        2.5vh;
@@ -23,20 +27,26 @@ h4, a {
     color:            darkred;
 }
 
-a:hover, a:active {
-    text-decoration:  none;
+    h4 {text-align: right;}
+
+    a:hover, a:active {
+        text-decoration:  none;
+        font-size:        2.5vh;
+        font-weight:      bold;
+        line-height:      3vh;
+        color:            rgba(255, 255, 0, 0.8);
+        text-shadow:      0.5vh 0.5vh 0.5vh rgba(68, 68, 68, 1), -0.1vh -0.1vh black;
+        transition:       all 0.5s ease-in-out;
+    }
+
+p {
     font-size:        2.5vh;
     font-weight:      bold;
     line-height:      3vh;
-    color:            rgba(255, 255, 0, 0.8);
-    text-shadow:      0.5vh 0.5vh 0.5vh rgba(68, 68, 68, 1), -0.1vh -0.1vh black;
-    transition:       all 0.5s ease-in-out;
+    color:            darkred;
 }
 
-    h1 {text-align: left;}
-    h2 {text-align: right;}
-    h3 {text-align: center;}
-    h4 {text-align: right;}
+    p {text-align: center;}
 
 footer {
     position: fixed;
@@ -60,6 +70,10 @@ footer {
         font-weight:  bold;
         line-height:  6vh;
     }
+
+        h1 {text-align: left;}
+        h2 {text-align: right;}
+        h3 {text-align: center;}
     
     h4, a {
         text-decoration:  none;
@@ -68,21 +82,27 @@ footer {
         line-height:      3vh;
         color:            darkred;
     }
+
+        h4 {text-align: right;}
     
-    a:hover, a:active {
-        text-decoration:  none;
+        a:hover, a:active {
+            text-decoration:  none;
+            font-size:        2.5vh;
+            font-weight:      bold;
+            line-height:      3vh;
+            color:            rgba(255, 255, 0, 0.8);
+            text-shadow:      0.5vh 0.5vh 0.5vh rgba(68, 68, 68, 1), -0.1vh -0.1vh black;
+            transition:       all 0.5s ease-in-out;
+        }
+
+    p {
         font-size:        2.5vh;
         font-weight:      bold;
         line-height:      3vh;
-        color:            rgba(255, 255, 0, 0.8);
-        text-shadow:      0.5vh 0.5vh 0.5vh rgba(68, 68, 68, 1), -0.1vh -0.1vh black;
-        transition:       all 0.5s ease-in-out;
+        color:            darkred;
     }
-    
-        h1 {text-align: left;}
-        h2 {text-align: right;}
-        h3 {text-align: center;}
-        h4 {text-align: right;}
+
+        p {text-align: center;}
     
     footer {
         position: fixed;
@@ -107,6 +127,10 @@ footer {
         font-weight:  bold;
         line-height:  5vh;
     }
+
+        h1 {text-align: left;}
+        h2 {text-align: right;}
+        h3 {text-align: center;}
     
     h4, a {
         text-decoration:  none;
@@ -115,22 +139,28 @@ footer {
         line-height:      3vh;
         color:            darkred;
     }
+
+        h4 {text-align: right;}
     
-    a:hover, a:active {
-        text-decoration:  none;
+        a:hover, a:active {
+            text-decoration:  none;
+            font-size:        2.5vh;
+            font-weight:      bold;
+            line-height:      3vh;
+            color:            rgba(255, 255, 0, 0.8);
+            text-shadow:      0.5vh 0.5vh 0.5vh rgba(68, 68, 68, 1), -0.1vh -0.1vh black;
+            transition:       all 0.5s ease-in-out;
+        }
+
+    p {
         font-size:        2.5vh;
         font-weight:      bold;
         line-height:      3vh;
-        color:            rgba(255, 255, 0, 0.8);
-        text-shadow:      0.5vh 0.5vh 0.5vh rgba(68, 68, 68, 1), -0.1vh -0.1vh black;
-        transition:       all 0.5s ease-in-out;
+        color:            darkred;
     }
-    
-        h1 {text-align: left;}
-        h2 {text-align: right;}
-        h3 {text-align: center;}
-        h4 {text-align: right;}
-    
+
+        p {text-align: center;}
+        
     footer {
         position: fixed;
         bottom: 0;
