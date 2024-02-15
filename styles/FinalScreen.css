@@ -10,7 +10,7 @@
     justify-content:   center;
     align-items:       center;
     
-    width:             1fr;
+    width:             auto;
     height:            auto;
     top:               0;
     left:              0;
@@ -23,6 +23,11 @@
     opacity:           0;
     z-index:           200;
 }
+
+    .FinalScreen-image {
+        width:   1fr;
+        height:  auto;
+    }
 
 .FinalScreen--open {
     height:   100vh;
