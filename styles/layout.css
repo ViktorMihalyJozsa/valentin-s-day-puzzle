@@ -46,17 +46,19 @@ p {
     color:            darkred;
 }
 
-    p {text-align: center;}
+p {text-align: center;}
 
 footer {
-    position: absolute;
+    position: fixed;
     float:    right;
     right:    0;
     bottom:   0;
-    
-    width:    auto;
+        
+    width:    1fr;
     height:   auto;
     padding:  2vh 2vh 2vh 2vh;
+
+    background-color: blueviolet;
 } 
 
 
@@ -107,12 +109,12 @@ footer {
         p {text-align: center;}
     
     footer {
-        position: absolute;
+        position: fixed;
         float:    right;
         right:    0;
         bottom:   0;
         
-        width:    auto;
+        width:    1fr;
         height:   auto;
         padding:  2vh 2vh 2vh 2vh;
     } 
@@ -121,7 +123,7 @@ footer {
 
 @media(max-width: 768px) {
     header {
-        width:    40vh;
+        width:    1fr;
         height:   auto;
         padding:  2vh 2vh 2vh 2vh;
     }
@@ -166,15 +168,13 @@ footer {
         p {text-align: center;}
         
     footer {
-        position: absolute;
+        position: fixed;
         float:    right;
         right:    0;
         bottom:   0;
 
-        width:    40vh;
+        width:    1fr;
         height:   auto;
         padding:  2vh 2vh 2vh 2vh;
-        
-        /*background-color: blueviolet;*/
     }    
 }
