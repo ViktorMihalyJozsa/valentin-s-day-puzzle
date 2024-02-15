@@ -15,6 +15,6 @@
 
 @media(max-width: 768px) {
     :root {
-        --size: 45vh;
+        --size: 40vh;
     }
 }
