@@ -49,7 +49,7 @@ p {
     p {text-align: center;}
 
 footer {
-    position: fixed;
+    position: absolute;
     float:    right;
     right:    0;
     bottom:   0;
@@ -107,7 +107,7 @@ footer {
         p {text-align: center;}
     
     footer {
-        position: fixed;
+        position: absolute;
         float:    right;
         right:    0;
         bottom:   0;
@@ -166,13 +166,15 @@ footer {
         p {text-align: center;}
         
     footer {
-        position: fixed;
+        position: absolute;
         float:    right;
         right:    0;
         bottom:   0;
-    
+
         width:    45vh;
         height:   auto;
         padding:  2vh 2vh 2vh 2vh;
+        
+        /*background-color: blueviolet;*/
     }    
 }
