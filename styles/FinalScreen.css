@@ -2,6 +2,9 @@
     F I N A L S C R E E N
 \*  ========================================================================  */
 
+/*  ========================================================================  *\
+    8 K  -  4 K  -  F H D
+\*  ========================================================================  */
 
 .FinalScreen {
     position:          absolute;
@@ -25,7 +28,7 @@
 }
 
     .FinalScreen-image {
-        width:   1fr;
+        width:   70vh;
         height:  auto;
     }
 
@@ -36,4 +39,88 @@
 
 .FinalScreen dt {
     margin:  0vh 1vh 0vh 3vh;
+}
+
+
+/*  ========================================================================  *\
+    T A B L E T  -  H D
+\*  ========================================================================  */
+
+@media(max-width: 1025px) {
+    .FinalScreen {
+        position:          absolute;
+        display:           flex;
+        flex-direction:    column;
+        justify-content:   center;
+        align-items:       center;
+        
+        width:             100%;
+        height:            auto;
+        top:               0;
+        left:              0;
+    
+        background-color:  rgba(255, 255, 255, 1);
+        color:             rgba(139, 0, 0, 1);
+    
+        transition:        opacity 500ms ease-in;
+    
+        opacity:           0;
+        z-index:           200;
+    }
+    
+        .FinalScreen-image {
+            width:   65vh;
+            height:  auto;
+        }
+    
+    .FinalScreen--open {
+        height:   100vh;
+        opacity:  1;
+    }
+    
+    .FinalScreen dt {
+        margin:  0vh 1vh 0vh 3vh;
+    }
+}
+
+
+/*  ========================================================================  *\
+    M O B I L  P H O N E
+\*  ========================================================================  */
+
+@media(max-width: 768px) {
+    .FinalScreen {
+        position:          absolute;
+        display:           flex;
+        flex-direction:    column;
+        justify-content:   center;
+        align-items:       center;
+        
+        width:             45vh;
+        height:            auto;
+        top:               0;
+        left:              0;
+    
+        background-color:  rgba(255, 255, 255, 1);
+        color:             rgba(139, 0, 0, 1);
+    
+        transition:        opacity 500ms ease-in;
+    
+        opacity:           0;
+        z-index:           200;
+    }
+    
+        .FinalScreen-image {
+            width:   45vh;
+            height:  auto;
+        }
+    
+    .FinalScreen--open {
+        height:   100vh;
+        opacity:  1;
+    }
+    
+    .FinalScreen dt {
+        margin:  0vh 1vh 0vh 3vh;
+    }    
 }
