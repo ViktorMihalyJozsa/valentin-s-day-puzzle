@@ -2,11 +2,25 @@
     L A Y O U T  a n d  F O N T
 \*  ========================================================================  */
 
+/*  ========================================================================  *\
+    8 K  -  4 K  -  F H D
+\*  ========================================================================  */
 
 header {
     width:    70vh;
     height:   auto;
     padding:  2vh 0vh 2vh 0vh;
+}
+
+footer {
+    position:  fixed;
+    bottom:    0vh;
+        
+    width:     100%;
+    height:    auto;
+    padding:   2vh 2vh 2vh 2vh;
+
+    background-color: blueviolet;
 }
 
 h1, h2, h3 {
@@ -46,27 +60,27 @@ p {
     color:            darkred;
 }
 
-p {text-align: center;}
+    p {text-align: center;}
 
-footer {
-    position: fixed;
-    float:    right;
-    right:    0;
-    bottom:   0;
-        
-    width:    1fr;
-    height:   auto;
-    padding:  2vh 2vh 2vh 2vh;
 
-    background-color: blueviolet;
-} 
-
+/*  ========================================================================  *\
+    T A B L E T  -  H D
+\*  ========================================================================  */
 
 @media(max-width: 1025px) {
     header {
         width:    65vh;
         height:   auto;
         padding:  2vh 0vh 2vh 0vh;
+    }
+
+    footer {
+        position:  fixed;
+        bottom:    0;
+        
+        width:    100%;
+        height:   auto;
+        padding:  2vh 2vh 2vh 2vh;
     }
     
     h1, h2, h3 {
@@ -107,23 +121,25 @@ footer {
     }
 
         p {text-align: center;}
-    
-    footer {
-        position: fixed;
-        float:    right;
-        right:    0;
-        bottom:   0;
-        
-        width:    1fr;
-        height:   auto;
-        padding:  2vh 2vh 2vh 2vh;
-    } 
 }
 
 
+/*  ========================================================================  *\
+    M O B I L  P H O N E
+\*  ========================================================================  */
+
 @media(max-width: 768px) {
     header {
-        width:    1fr;
+        width:    45vh;
+        height:   auto;
+        padding:  2vh 2vh 2vh 2vh;
+    }
+
+    footer {
+        position:  fixed;
+        bottom:    0;
+
+        width:    100%;
         height:   auto;
         padding:  2vh 2vh 2vh 2vh;
     }
@@ -165,16 +181,5 @@ footer {
         color:            darkred;
     }
 
-        p {text-align: center;}
-        
-    footer {
-        position: fixed;
-        float:    right;
-        right:    0;
-        bottom:   0;
-
-        width:    1fr;
-        height:   auto;
-        padding:  2vh 2vh 2vh 2vh;
-    }    
+        p {text-align: center;}  
 }
