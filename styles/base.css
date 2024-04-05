@@ -22,7 +22,7 @@ body {
     background-image:     url("../assets/background.jpg");
     background-size:      cover;
     background-repeat:    no-repeat;
-    background-position:  right;
+    background-position:  bottom;
     opacity:              1;
 
     font-family:          "Dancing Script", cursive;
