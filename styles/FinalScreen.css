@@ -18,14 +18,22 @@
     top:               0;
     left:              0;
 
-    background-color:  rgba(255, 255, 255, 1);
-    color:             rgba(139, 0, 0, 1);
+    background-color:  rgba(255, 255, 255, 0.25);
+
+    color:             rgba(255, 255, 0, 0.8);
+    text-shadow:       0.5vh 0.5vh 0.5vh rgba(68, 68, 68, 1), -0.1vh -0.1vh black;
 
     transition:        opacity 500ms ease-in;
 
     opacity:           0;
     z-index:           200;
 }
+
+    h5 {
+        font-size:        6vh;
+        font-weight:      bold;
+        line-height:      6vh;
+    }
 
     .FinalScreen-image {
         width:   70vh;
@@ -59,13 +67,21 @@
         top:               0;
         left:              0;
     
-        background-color:  rgba(255, 255, 255, 1);
-        color:             rgba(139, 0, 0, 1);
+        background-color:  rgba(255, 255, 255, 0.1);
+        
+        color:             rgba(255, 255, 0, 0.8);
+        text-shadow:       0.5vh 0.5vh 0.5vh rgba(68, 68, 68, 1), -0.1vh -0.1vh black;
     
         transition:        opacity 500ms ease-in;
     
         opacity:           0;
         z-index:           200;
+    }
+
+    h5 {
+        font-size:        6vh;
+        font-weight:      bold;
+        line-height:      6vh;
     }
     
         .FinalScreen-image {
@@ -102,13 +118,21 @@
         top:               0;
         left:              0;
     
-        background-color:  rgba(255, 255, 255, 1);
-        color:             rgba(139, 0, 0, 1);
+        background-color:  rgba(255, 255, 255, 0.1);
+
+        color:            rgba(255, 255, 0, 0.8);
+        text-shadow:       0.5vh 0.5vh 0.5vh rgba(68, 68, 68, 1), -0.1vh -0.1vh black;
     
         transition:        opacity 500ms ease-in;
     
         opacity:           0;
         z-index:           200;
+    }
+
+    h5 {
+        font-size:        4vh;
+        font-weight:      bold;
+        line-height:      4vh;
     }
     
         .FinalScreen-image {

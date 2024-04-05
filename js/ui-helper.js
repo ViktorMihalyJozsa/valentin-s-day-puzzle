@@ -7,7 +7,7 @@
     const FINAL_SCREEN_CLASS = 'FinalScreen';
     const FINAL_SCREEN_OPEN_CLASS = 'FinalScreen--open';
     const USER_STATS_CLASS = 'UserStats';
-    const SAVED_SCORES_ID = 'saved-scores';
+    /*const SAVED_SCORES_ID = 'saved-scores';*/
     const SCORE = 0;
     const TIME = 1;
     const MOVES = 2;
@@ -128,13 +128,13 @@
             screen.classList.add(FINAL_SCREEN_OPEN_CLASS);
             
             records && this.addSavedScores(records);
-        },
+        }/*,
 
         /**
          * Adds the saved records to the users stats screen
          * @param {Array} records - Array of objects containing saved data
          */
-        addSavedScores: function(records) {
+        /*addSavedScores: function(records) {
             const savedScores = window.document.getElementById(SAVED_SCORES_ID);
             records.map((record) => {
                 const recordEl = window.document.createElement('div'); 
@@ -147,11 +147,11 @@
          * Updates saved records
          * @param {object} record - record object {name: '', score: ''}
          */
-        updateSavedScores: function(record) {
+        /*updateSavedScores: function(record) {
             const savedScores = window.document.getElementById(SAVED_SCORES_ID);
             const recordEl = window.document.createElement('div'); 
             recordEl.innerHTML = `${record.name}: ${record.score}`;
             savedScores.appendChild(recordEl);
-        }
+        }*/
     }
 })();
